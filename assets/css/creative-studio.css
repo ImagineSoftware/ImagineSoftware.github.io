@@ -4670,6 +4670,7 @@ input[type="button"].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
+  fill: #000 !important;
 }
 
 @media (max-width: 575.98px) {
@@ -11561,6 +11562,7 @@ pre .code {
   -webkit-transition: all, 0.33s;
   transition: all, 0.33s;
   padding: 0 10px;
+  background-color: var(--white);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11612,7 +11614,7 @@ pre .code {
   margin: 0 5px;
   font-weight: 600;
   font-size: 14px;
-  color: #fff !important;
+  color: var(--dark) !important;
 }
 
 .custom-navbar .nav-link.active {
