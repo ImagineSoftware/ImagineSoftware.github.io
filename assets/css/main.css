@@ -11563,6 +11563,7 @@ pre .code {
   transition: all, 0.33s;
   padding: 0 10px;
   background-color: var(--white);
+  opacity: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11633,6 +11634,7 @@ pre .code {
   top: 0;
   border-radius: 0;
   border-bottom: 1px solid #eaf0fc;
+  opacity: 1;
 }
 
 .custom-navbar.affix .navbar-toggler {
